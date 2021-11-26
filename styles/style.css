@@ -25,18 +25,18 @@
   height: 32px;
   width: 183px;
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 }
+
 .header__title {
   margin: 0;
   margin-left: 64px;
   width: 730px;
   z-index: 2;
-}
-.header__title_text {
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -48,13 +48,12 @@
   left: 64px;
   bottom: 30px;
   z-index: 2;
-}
-.header__subtitle_text {
   width: 388px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
 }
+
 .header__link {
   text-decoration: none;
   color: #2f80ed;
@@ -78,11 +77,13 @@
   height: 568px;
   background-color: #2f80ed;
 }
+
 /* раздел description */
 .description {
   display: flex;
   justify-content: center;
 }
+
 .two-columns {
   width: 80%;
   display: flex;
@@ -94,9 +95,6 @@
 .two-columns__brief {
   display: flex;
   width: 175px;
-}
-
-.two-columns__brief_text {
   padding: 0;
   color: #2f80ed;
   font-size: 18px;
@@ -151,6 +149,7 @@
   text-align: center;
   margin: 0 auto;
 }
+
 .table {
   display: flex;
   flex-wrap: wrap;
@@ -158,7 +157,6 @@
   width: 1100px;
   margin: 0 auto;
   list-style-type: none;
-
   padding: 0;
 }
 
@@ -201,9 +199,6 @@
   width: 648px;
   margin-top: 100px;
   margin-bottom: 70px;
-}
-
-.feynman__title_text {
   padding: 0;
   line-height: 1.15;
   font-size: 120px;
@@ -220,13 +215,11 @@
   margin: 0;
   padding: 0;
 }
+
 .feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
-}
-
-.feynman__link_text {
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
@@ -261,9 +254,6 @@
   z-index: 3;
 }
 
-.table__heading_theme_dark {
-}
-
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
@@ -283,7 +273,6 @@
 }
 
 /*раздел footer*/
-
 .footer {
   display: flex;
   justify-content: center;
@@ -304,6 +293,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
@@ -314,9 +304,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
 }
 
 .footer__column-heading {
