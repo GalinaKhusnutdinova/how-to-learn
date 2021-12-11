@@ -1,4 +1,10 @@
 .logo {
   height: 32px;
   width: 183px;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
